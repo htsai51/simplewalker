@@ -2,12 +2,12 @@
 <package>
   <name>simplewalker</name>
   <version>0.0.0</version>
-  <description>This is a randomwalker package</description>
+  <description>This is a simplewalker package</description>
 
   <maintainer email="htsai51@terpmail.umd.edu">Jane Tsai</maintainer>
   <license>MIT</license>
 
-  <url type="website">https://github.com/htsai51/randomwalker</url>
+  <url type="website">https://github.com/htsai51/simplewalker</url>
 
   <author email="htsai51@terpmail.umd.edu">Jane Tsai</author>
 

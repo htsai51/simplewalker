@@ -96,6 +96,7 @@ catkin_package(
 # include_directories(include)
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  include
 )
 
 ## Declare a cpp library
@@ -114,6 +115,12 @@ include_directories(
 # target_link_libraries(simplewalker_node
 #   ${catkin_LIBRARIES}
 # )
+
+
+## Add walker
+add_executable(walker src/main.cpp src/walker.cpp)
+target_link_libraries(walker ${catkin_LIBRARIES})
+
 
 #############
 ## Install ##
