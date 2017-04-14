@@ -1,7 +1,9 @@
 <launch>
     <arg name="enable_record" default="false"/>
 
-    <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch"/>
+    <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+        <arg name="world_file" value="$(find simplewalker)/world/myplayground"/>
+    </include>
 
     <node
         pkg="simplewalker"
