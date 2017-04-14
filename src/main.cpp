@@ -28,7 +28,7 @@
  *
  *  This file contains main entry point of a walker which drives a
  *  robot forward until it is close to an obstacle and spin in place
- *  until path is cleared.
+ *  until sensor senses path is cleared.
  *
  *
  *

@@ -26,7 +26,8 @@
  *  @brief Definition of class Walker
  *
  *  This file contains definitions of class Walker which subscribes to
- *  /scan topic and uses it to determine if robot is close to obstacle
+ *  /scan topic and uses range info to determine if robot is close to
+ *  obstacle
  *
  *  @author Huei Tzu Tsai
  *  @date   04/13/2017
@@ -39,7 +40,7 @@
 #include <sensor_msgs/LaserScan.h>
 
 /**
- *  @brief Class definition of Walker node
+ *  @brief Class definition of Walker class
 */
 class Walker {
  public:
@@ -60,7 +61,7 @@ class Walker {
      ~Walker() {}
 
      /**
-      *   @brief  Callback function of Walker which subscribes
+      *   @brief  Callback function of Walker class which subscribes
       *           to topic /scan to determine if robot is close to obstacle
       *
       *   @param  pointer to scan info of type sensor_msgs::LaserScan

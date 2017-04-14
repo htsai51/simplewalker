@@ -25,8 +25,8 @@
 /** @file walker.cpp
  *  @brief Implementation of class Walker methods
  *
- *  This file contains implemenation of callback function in node
- *  Walker.  Callback function receives messages published
+ *  This file contains implemenation of callback function in Walker
+ *  class.  Callback function receives messages published
  *  on topic /scan which contains Laserscan info that can be used to 
  *  determine the distance to obstacle
  *
