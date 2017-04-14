@@ -32,8 +32,8 @@
  *  @date   04/13/2017
 */
 
-#ifndef INCLUDE_WALKER_CLASS_HPP_
-#define INCLUDE_WALKER_CLASS_HPP_
+#ifndef INCLUDE_WALKER_HPP_
+#define INCLUDE_WALKER_HPP_
 
 #include <ros/ros.h>
 #include <sensor_msgs/LaserScan.h>
@@ -80,7 +80,8 @@ class Walker {
      bool isClose(void) { return bClose; }
 
  private:
-     bool bClose;            ///< flag to record whether robot is within 0.5m to obstacle
+     bool bClose;            ///< flag to record whether robot is
+                             ///< within 0.5m to obstacle
 };
 
-#endif  // INCLUDE_WALKER_CLASS_HPP_
+#endif  // INCLUDE_WALKER_HPP_

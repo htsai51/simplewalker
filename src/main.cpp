@@ -60,7 +60,7 @@ int main(int argc, char **argv) {
     ros::Subscriber sub = n.subscribe<sensor_msgs::LaserScan>("/scan", 50,
                                       &Walker::sensorCallback, &walker);
 
-    // Register to publish topic velocity to drive robot forward 
+    // Register to publish topic velocity to drive robot forward
     // or spin in place until path is clear
     ros::Publisher pub = n.advertise<geometry_msgs::Twist>
                              ("/mobile_base/commands/velocity", 1000);
