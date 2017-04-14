@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>simplewalker</name>
+  <version>0.0.0</version>
+  <description>This is a randomwalker package</description>
+
+  <maintainer email="htsai51@terpmail.umd.edu">Jane Tsai</maintainer>
+  <license>MIT</license>
+
+  <url type="website">https://github.com/htsai51/randomwalker</url>
+
+  <author email="htsai51@terpmail.umd.edu">Jane Tsai</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>move_base_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>move_base_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+</package>
